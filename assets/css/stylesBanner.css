@@ -1,0 +1,138 @@
+/* Estilos generales */
+.banner div a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner div a:hover {
+    color: white;
+}
+
+.banner div i {
+    font-size: 2rem;
+}
+
+.banner {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100%;
+    /* Agrega la imagen de fondo */
+    background-image: url('../imgs/tuberia.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* Importante para posicionar el gradiente */
+}
+
+/* Agrega un pseudo-elemento para el gradiente */
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+    /* Gradiente de izquierda a derecha */
+    z-index: 1;
+    /* Coloca el gradiente detrás del contenido */
+}
+
+.banner h2 {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding-top: 6rem;
+    position: relative;
+    z-index: 2;
+    /* Asegura que el texto esté por encima del gradiente */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    margin-top: 2rem;
+    /* Ajuste para alinear verticalmente */
+    font-size: 21px;
+    position: relative;
+    z-index: 2;
+    /* Asegura que el texto esté por encima del gradiente */
+    margin-left: 7rem;
+}
+
+.contact-info a {
+    margin-top: .5rem;
+    margin-bottom: .2rem;
+}
+
+.info-item {
+    margin-right: 6rem;
+    /* Reducir el espacio entre elementos */
+}
+
+.bannerContacto {
+    height: 30rem;
+}
+
+.button {
+    background-color: #039BE5;
+    /* Color de fondo */
+    border: none;
+    color: white;
+    /* Color del texto */
+    padding: 15px 32px;
+    /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Bordes redondeados */
+    position: relative;
+    z-index: 2;
+    margin-right: 32px;
+}
+
+.button i{
+    margin-left: 1rem;
+}
+
+/* Estilos responsivos para celular */
+
+@media only screen and (max-width: 480px) {
+
+    .banner h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact-info {
+        display: block;
+        margin-left: 3rem;
+    }
+
+    .info-item {
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem!important;
+    }
+
+    .banner::before {
+        width: 100%;
+    }
+
+    .buttonContactanos{
+        margin-left: 51px;
+        margin-top: 16px;
+    }
+
+    .bannerContacto {
+        height: 41rem;
+    }
+}   

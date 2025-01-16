@@ -1,0 +1,49 @@
+.main {
+    max-width: 499px;
+    margin: 0 auto;
+}
+.main-title {
+    margin-top: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.accordion-container input {
+    display: none;
+}
+
+.accordion-container .tab {
+    overflow: hidden;
+    margin-top: 23px;
+}
+.accordion-container .tab-container {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all 0.25s;
+    background: #fff;
+}
+.accordion-container input:checked ~ .tab-container {
+    max-height: 100vh;
+    padding: 1em;
+    color: #3c3c3c
+}
+.accordion-container .tab-title {
+    display: flex;
+    padding: 1em;
+    cursor: pointer;
+    background: #fff;
+    color: #34556F;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+.accordion-container .tab-title:hover {
+    background: lightgray;
+}
+.accordion-container .tab-title::after {
+    content: "+";
+    transition: all 0.5s;
+}
+.accordion-container input:checked + .tab-title::after {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,909 @@
+/* Inicio de nuevos estilos*/
+
+/* Estilos repetitivos */
+
+body{
+    overflow-x: hidden;
+}
+
+.verMas1{
+	border: solid 1px!important;
+	border-color: white!important;
+	background-color: transparent!important;
+	color: white!important;
+	padding: .8rem!important;
+	border-radius: 12px!important;
+}
+
+.verMas2{
+    border-radius: 14px!important;
+    display: flex;
+    justify-content: center;
+    margin-left: 38rem;
+    color: white!important;
+    background-color: #039BE5!important;
+    border-color:#039BE5!important;
+    padding: 1rem!important;
+}
+
+/* Estilos del navbar */
+
+.contactos{
+	background-color: #34556F;
+	height: 54px!important;
+}
+
+.contactos .container .row .numeroycorreo{
+	margin-top: .6rem!important;
+    margin-left: 14rem!important;
+}
+
+.contactos .container .row span,
+.contactos .container .row span i{
+	font-size: 115%;
+}
+
+.contactos .container .row span i{
+	color: white;
+}
+
+.acontactos{
+	text-decoration: none;
+	color: white;
+}
+
+.acontactos:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.contactos .container .row span{
+	font-size: 115%;
+}
+
+.correo{
+	margin-right: 1.2rem;
+}
+
+.redes span a i{
+	font-size: 175%;
+	margin-right: 20px;
+}
+
+.paginas {
+	background-color: white;
+}
+
+.icoProimpeq{
+	width: 6rem;
+	margin-left: 20%;
+}
+
+.inicio{
+	text-decoration: none;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 6%;
+	font-size: 120%;
+	margin-left: 10%;
+}
+
+.pg{
+	text-decoration: none;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 6%;
+	font-size: 120%;
+}
+
+nav button{
+	box-shadow: 2px 2px lightgray;
+	color: white!important;
+	border-radius: 10px!important;
+	margin-top:11%;
+	margin-left:17%;
+	background-color: #34556F!important;
+	border-color: #039BE5!important;
+}
+
+/* Estilos de la primera sección de Inicio (Carrusel)*/
+
+.carrusel .carousel-item img{
+	height: 35rem!important;	
+}
+
+.carrusel h2,
+.carrusel p{
+    color: white;
+    font-size: 1.436rem;
+}
+
+.carrusel h2{
+    font-size: 1.98rem!important;
+}
+
+.carousel-caption {
+    padding-bottom: 11.25rem!important;
+}
+
+/* Estilos de la segunda sección de Inicio (Servicios Hidraulicos)*/
+
+.serviciosHidraulicos {
+	background-color: white;
+	height: 49rem;
+}
+
+.serviciosHidraulicos h2{
+	padding-top: 59px;
+	margin-top: 0!important;
+	font-weight: bold;
+	text-align: center;
+}
+
+.serviciosHidraulicos h3{
+	padding-top: 20px;
+	margin-top: 0!important;
+	text-align: center;
+}
+
+.cardsServicios .carousel-item{
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.cardsServicios .card{
+    border: none!important;
+    width: 19rem;
+    text-align: center;
+}
+
+.serviciosHidraulicos img{
+	border-radius: 190px;
+	width: 205px;
+	height: 203px;
+	margin-left: 51px;
+}
+
+/* Estilos de la tercera sección de Inicio (Obras Civiles) */
+
+.obrasCiviles {
+	background-image: url(../imgs/obra-civil.png);
+	height: 49rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.obrasCiviles h2{
+	padding-top: 59px;
+	margin-top: 0!important;
+	font-weight: bold;
+	text-align: center;
+    color: white;
+}
+
+.obrasCiviles h3{
+	padding-top: 20px;
+	margin-top: 0!important;
+	text-align: center;
+    color: white;
+}
+
+.cardsObras .carousel-item{
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.cardsObras .card{
+    border: none!important;
+    width: 19rem;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.obrasCiviles img{
+	border-radius: 190px;
+	width: 205px;
+	height: 203px;
+	margin-left: 51px;
+}
+
+/* Estilos de la quinta sección de Inicio (Limpieza de tanques) */
+
+.limpiezaTanques{
+    background-color: white; 
+    height: 43rem;
+}
+
+.limpiezaTanques .contenedor{
+    margin-left: 19rem; 
+    position: relative;
+}
+
+.limpiezaTanques h2{
+    padding-top: 59px;
+    margin-top: 0!important;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.limpiezaTanques h3{
+    padding-top: 20px;
+    margin-top: 0!important; 
+    text-align: center;
+}
+
+.limpiezaTanques .cards{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-left: 10.3rem;
+}
+
+.caratras,
+.caradel{
+    position: relative; 
+}
+
+.limpiezaTanques .cards .carta-box .carta div .text_card{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+}
+
+.limpiezaTanques .cards .carta-box .carta div .icons{
+    font-size: 175%;
+    margin-right: 20px;
+    margin-left: 22px;
+    color: white;
+}
+
+.limpiezaTanques .cards .carta-box .carta div p{
+    margin-top: 14px;
+}
+
+.caratras p{
+    font-size: .9rem;
+}
+
+/* Estilos de la sexta sección de Inicio (Servicios Electricos) */
+
+.serviciosElec {
+	background-image: url(../imgs/electricidad.png);
+	height: 52rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.serviciosElec h2{
+	padding-top: 59px;
+	margin-top: 0!important;
+	font-weight: bold;
+	text-align: center;
+    color: white;
+}
+
+.serviciosElec h3{
+	padding-top: 20px;
+	margin-top: 0!important;
+	text-align: center;
+    color: white;
+}
+
+.cardsElec .carousel-item{
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.cardsElec .card{
+    border: none!important;
+    width: 19rem;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.serviciosElec img{
+	border-radius: 190px;
+	width: 205px;
+	height: 203px;
+	margin-left: 51px;
+}
+
+
+/* Estilos de la septima sección de Inicio (Slider de Aliados) */
+
+.sliderAliados{
+    background-color: white; 
+    height: 29rem;
+}
+
+.sliderAliados .container{
+    margin-left: 19rem;
+    position: relative;
+}
+
+.sliderAliados h2{
+    padding-top: 59px;
+    margin-top: 0!important; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+.sliderAliados h3{
+    padding-top: 20px;
+    margin-top: 0!important;
+    text-align: center;
+}
+
+/* Estilos de la segunda pagina de la web (Servicios) */
+
+/* Estilos del banner de nuestros servicios */
+
+.nuestrosServicios{
+    background-image: url(../imgs/servicios.jpg);
+    width: 100%;
+    height: 9rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nuestrosServicios p{
+    font-size: 3rem;
+    text-decoration:underline;
+    padding: 2rem 0 0 7rem;
+    color: #ffff;
+}
+
+/* Estilos de la sección de servicios electricos */
+
+.serviciosElectricos{
+    height: 62rem;
+}
+
+.containerElec1 div{
+    background-image: url(https://elecdes.com/static/images/slider-bg/panel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140px;
+}
+
+.containerElec1 p{
+    color: white;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.containerElec2 p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.containerElec3{
+    padding-top: 40px;
+}
+
+.containerElec3 .row .col-md-5 img{
+    width:32rem;
+    height:42rem;
+}
+
+/* Estilos de la sección de servicios hidraulicos */
+
+.serviciosHidraulic{
+    background-image: url(../imgs/serviciosHidraulicos.jpg);
+    height: 86rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerHidro1 .p1{
+    color: white;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.containerHidro1 .p2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+    color: #fff;
+}
+
+/* Estilos de la sección de  Lavado de Tanques */
+
+.serviciosLavados{
+    height: 63rem;
+}
+
+.serviciosLavados .p1{
+    font-size: 2rem;
+    text-align: center;
+    color: #90CAF9;
+    padding-top: 2.5rem;
+}
+
+.serviciosLavados .p2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+    color: #000000;
+}
+
+.serviciosLavados .text1{
+    text-align: left;
+}
+
+.serviciosLavados .text2{
+    text-align: right;
+}
+
+.serviciosLavados .tecnicoLavado{
+    height: 2rem;
+}
+
+/* Estilos de la sección de Obras Civiles */
+
+.serviciosObras{
+    background-image: url(https://tornimec.com/wp-content/uploads/2021/06/obrasa-civiles.jpg);
+    height: 64rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.serviciosObras .containerCiv1 .textObras1{
+    color: white;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.serviciosObras .containerCiv1 .textObras2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+    color: #fff;
+}
+
+/* Estilos de la tercera pagina de la web (Contacto) */
+
+
+
+/* Estilos de la cuarta pagina de la web (Nosotros) */
+
+
+
+/*Estilos del footer*/
+
+.piedepagina{
+    background-color: #212121;
+}
+
+.piedepagina .proimpeq{
+    width: 7rem;
+}
+
+.descripProimpeq{
+    color: white!important;
+    text-align: left;
+    font-size: 106%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piedepagina a{
+    text-decoration: none!important;
+}
+
+.piedepagina .col2 h4{
+    color: white;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.piedepagina .col2 p{
+    color: #eeeeee;
+    margin-left: 4px;
+}
+
+.piedepagina .col3 .paginasFooter{
+    color: white!important;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+.piedepagina .col3 .redes{
+    color: white;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+.piedepagina .col3 ul{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.piedepagina .col3 .pgs{
+    text-decoration: none;
+    color: white!important;
+}
+
+.facebook1{
+    text-decoration: none;
+    color: white;
+}
+
+.facebook2{
+    font-size: 175%;
+    margin-right: 20px;
+    margin-left: 89px;
+}
+
+.whatsapp1{
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp2{
+    font-size: 175%;
+    margin-right: 20px;
+}
+
+.whatsapp1:hover{
+    color: greenyellow!important;
+}
+
+.instagram1{
+    text-decoration: none;
+    color: white;
+}
+
+.instagram2{
+    font-size: 175%;
+    margin-right: 20px;
+}
+
+.instagram1:hover{
+    color: rgb(192, 39, 186);
+}
+
+.tiktok1{
+    text-decoration: none;
+    color: white;
+}
+
+.tiktok2{
+    font-size: 175%;
+    margin-right: 20px;
+}
+
+.tiktok1:hover{
+    color: lightgray;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+footer hr{
+    color: #757575;
+}
+
+footer h5{
+    color: white;
+    font-weight: bold;
+    opacity: .5;
+}
+
+footer span{
+    color: #90CAF9;
+}
+
+/* Media query para portatiles de hasta 16" */
+
+@media only screen and (max-width: 1600px) {
+    .verMas2{
+        margin-left: 32rem;
+    }
+
+    .limpiezaTanques .contenedor{
+        margin-left: 5rem; 
+    }
+    
+    .limpiezaTanques .cards{
+        margin-left: 4.3rem;
+    }
+
+    .sliderAliados .container{
+        margin-left: 4rem;
+    }
+
+    .serviciosLavados{
+        height: 68rem;
+    }
+
+    .serviciosLavados .text2 {
+        margin-left: 1.2rem;
+    }
+
+    .facebook2{
+        margin-left: 55px;
+    }
+
+    .piedepagina .col2 h4 {
+        margin-left: 3rem;
+    }
+
+    .piedepagina .col2 p {
+        margin-left: 1.4rem;
+    }
+
+    .serviciosHidraulic{
+        height: 90rem;
+    }
+}
+
+/* Media query para celulares */
+
+@media only screen and (max-width: 480px) {
+    /* Estilos del cuerpo */
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Estilos responsivos del navbar */
+
+    .contactos .container .row .numeroycorreo{
+        margin-top: .6rem!important;
+        margin-left: 0rem!important;
+    }
+
+    .contactos{
+        height: 4.9rem!important;
+    }
+    .iconoCorreo{
+        margin-left: 5rem;
+        margin-right: .6rem;
+        font-size: 83%!important;   
+    }
+
+    .correo {
+        margin-right: 4rem; 
+        font-size: 83%!important;
+    }
+
+    .icoTelefono{
+        margin-left: 10px!important;
+        font-size: 83%!important;
+        margin-right: 5px;
+    }
+
+    .tel{
+        font-size: 83%!important;
+    }
+
+    .icoProimpeq{
+        margin-left: 37%!important;
+    }
+
+    .inicio {
+        margin-right: 2%;
+        margin-left: 4.5%;
+    }
+
+    .pg {
+        margin-right: 2%;
+    }
+
+    nav button {
+        margin-top: 6%;
+        margin-left: 29%;
+        margin-bottom: 10%;
+    }
+    
+    /* Estilos responsivos de la pagina de Inicio */
+
+    .carrusel h2 {
+        font-size: 27px;
+    }
+
+    .carrusel h2, .carrusel p {
+        font-size: 1rem;
+    }
+
+    .carrusel .carousel-item img {
+        height: 24rem !important;
+    }
+
+    .carousel-caption {
+        padding-bottom: 4.25rem !important;
+    }
+
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        display: block !important;
+    }
+
+    .serviciosHidraulicos .card,
+    .obrasCiviles .card,
+    .serviciosElec .card{
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    .serviciosHidraulicos {
+        height: 127rem;
+    }
+
+    .verMas2 {
+        margin-left: 8rem;
+        margin-top: 20px;
+    }
+
+    .obrasCiviles {
+        height: 118rem;
+    }
+
+    .limpiezaTanques {
+        background-color: white;
+        height: 100rem;
+    }
+
+    .limpiezaTanques .contenedor {
+        margin-left: 0rem;
+    }
+    
+    .limpiezaTanques .cards {
+        margin-left: 2.3rem;
+    }
+
+    .serviciosElec {
+        background-image: url(../imgs/fondoelectricos2.jpeg);
+        height: 140rem;
+    }
+
+    .sliderAliados .container {
+        margin-left: 0;
+    }
+
+    /* Estilos responsivos de la pagina de Servicios */
+
+    .nuestrosServicios {
+        background-image: url(../imgs/fondoservicios2.jpeg);
+        height: 12rem;
+    }
+
+    .nuestrosServicios p {
+        padding: 1rem 0 0 3.2rem;
+    }
+
+    .serviciosElectricos {
+        height: 109rem;
+    }
+
+    .containerElec1 p {
+        padding-top: 1.5rem;
+    }
+
+    .containerElec3 {
+        padding-top: 15px;
+    }
+
+    .containerElec3 .row .col-md-5 img {
+        width: 21rem;
+        height: 33rem;
+    }
+
+    .serviciosHidraulic {
+        height: 240rem;
+    }
+
+    .serviciosLavados {
+        height: 137rem;
+        text-align: center!important;
+    }
+
+    .serviciosLavados .tecnicoLavado {
+        height: 41rem;
+    }
+
+    .serviciosLavados .text1 {
+        text-align: center;
+    }
+
+    .serviciosLavados .text2 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .serviciosObras {
+        height: 165rem;
+    }
+
+    /* Estilos responsivos de la pagina de Contacto */
+
+    .contactanos{
+        font-size: 2.5rem!important;
+    }
+
+    .contacto{
+        height: 115rem!important;
+    }
+
+    .containeriframe{
+        padding: 0!important;
+    }
+
+    .contacto iframe{
+      width: 360px!important;
+      margin-bottom: 23px;
+    }
+
+    .contactos2{
+        margin-bottom: 50px;
+    }
+
+    /* Estilos responsivos de la pagina de Nosotros */
+
+    .nosotros{
+        height: 158rem!important;
+    }
+
+    .nosotros h2,
+    .nosotros p{
+        text-align: center!important;
+    }
+
+    .nosotros .container .row .col-md-5 img{
+        padding-left: 10px!important;
+    }
+
+    /* Estilos responsivos del footer */
+
+    .piedepagina .proimpeq {
+        margin-left: 33%;
+    }
+
+    .descripProimpeq {
+        text-align: center;
+    }
+
+    .piedepagina .col2 h4 {
+        margin-left: 0;
+    }
+
+    .piedepagina .col2 p {
+        margin-left: -8px;
+    }
+
+    footer iframe{
+        margin-left: 4.5%;
+    }
+
+    .piedepagina .col3 .paginasFooter {
+        margin-left: 0rem;
+    }
+
+    .piedepagina .col3 ul {
+        margin-left: 0rem;
+    }
+
+    .piedepagina .col3 .redes {
+        margin-left: 0rem;
+    }
+
+    .facebook2 {
+        margin-left: 75px;
+    }
+
+    .piedepagina h5 {
+        text-align: center;
+    }
+}   
