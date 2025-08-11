@@ -7,7 +7,7 @@
                         <span><i class="iconoCorreo bi bi-envelope"></i></span>
                         <span><a href="mailto:proimpeq@gmail.com" class="acontactos correo">proimpeq@gmail.com</a></span>
                         <span class="icoTelefono"><i class="bi bi-telephone"></i></span>
-                        <span><a href="tel:3108530777" class="acontactos tel">(+57) 310 853 07 77 - </a><a href="tel:3138981076" class="acontactos tel">(+57) 313 898 10 76</a></span>
+                        <span><a href="tel:3108530777" class="acontactos tel">(+57) 310 853 07 77</a></span>
                     </div>
                 <!-- <div class="redes col-md-3 offset-md-1 mt-1 text-center" style="margin-top: .6rem!important;">
                         <span><a href="https://www.facebook.com/proimpeq.sas.7" target="_blank" class="acontactos"><i class="bi bi-facebook"></i></a></span>
