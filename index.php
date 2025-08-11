@@ -108,11 +108,10 @@
         <div class="banner">
             <div class="container">
                 <h2 class="display-4"><b>Contactanos</b></h2>
-                <div class="contact-info">
+                <div class="contact-info mb-4">
                     <div class="info-item">
                         <i class="bi bi-phone"></i>
                         <a href="tel:3108530777">3108530777</a>
-                        <a href="tel:3138981076">3138981076</a>
                     </div>
                     <div class="info-item">
                         <i class="bi bi-envelope"></i>

@@ -21,7 +21,6 @@
                     <i class="bi bi-whatsapp" style="font-size: 256%;"></i>
                     <p style="font-size: 145%;"><b>WhatsApp</b></p>
                     <p style="font-size: 130%;">3108530777</p>
-                    <p style="font-size: 130%;">3138981076</p>
                 </div>
                 <div style="padding-top: 56px;">
                     <i class="bi bi-envelope" style="font-size: 256%;"></i>
@@ -34,7 +33,6 @@
                     <i class="bi bi-phone" style="font-size: 256%;"></i>
                     <p style="font-size: 145%;"><b>Celular(es)</b></p>
                     <p style="font-size: 130%;">3108530777</p>
-                    <p style="font-size: 130%;">3138981076</p>
                 </div>
                 <div style="padding-top: 56px;">
                     <i class="bi bi-watch" style="font-size: 256%;"></i>
