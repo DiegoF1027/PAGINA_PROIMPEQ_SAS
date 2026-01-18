@@ -15,13 +15,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROIMPEQ SAS</title>
-    <link rel="stylesheet" href="./assets\css\fontawesome\fontawesome-free-6.5.1-web\css\all.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome/fontawesome-free-6.5.1-web/css/all.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/stylesBanner.css">
     <link rel="stylesheet" href="./assets/css/whatsapp.css">
     <link rel="stylesheet" href="./assets/css/card.css">
     <link rel="stylesheet" href="./assets/css/slider_aliados.css">
     <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/serviceCards.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/nosotros.css">
     <link rel="icon" href="./assets/imgs/iconoProimpeq.png">
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -30,6 +35,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/services-common.js"></script>
 </head>
 
 <body>

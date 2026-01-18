@@ -1,0 +1,79 @@
+/* navbar.css - estilos del navbar y elementos globales relacionados */
+
+.contactos{
+    background-color: #34556F;
+    height: 54px!important;
+}
+
+.contactos .container .row .numeroycorreo{
+    margin-top: .6rem!important;
+    margin-left: 28rem!important;
+}
+
+.contactos .container .row span,
+.contactos .container .row span i{
+    font-size: 115%;
+}
+
+.contactos .container .row span i{
+    color: white;
+}
+
+.acontactos{
+    text-decoration: none;
+    color: white;
+}
+
+.acontactos:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.contactos .container .row span{
+    font-size: 115%;
+}
+
+.correo{
+    margin-right: 1.2rem;
+}
+
+.redes span a i{
+    font-size: 175%;
+    margin-right: 20px;
+}
+
+.paginas {
+    background-color: white;
+}
+
+.icoProimpeq{
+    width: 6rem;
+    margin-left: 20%;
+}
+
+.inicio{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 6%;
+    font-size: 120%;
+    margin-left: 10%;
+}
+
+.pg{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 6%;
+    font-size: 120%;
+}
+
+nav button{
+    box-shadow: 2px 2px lightgray;
+    color: white!important;
+    border-radius: 10px!important;
+    margin-top:11%;
+    margin-left:17%;
+    background-color: #34556F!important;
+    border-color: #039BE5!important;
+}
