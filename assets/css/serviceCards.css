@@ -1,0 +1,535 @@
+    /* Variables y base */
+    :root {
+        --se-azul-principal: #039BE5;
+        --se-head-dark: #3A4A5C;
+        --se-text-dark: #333333;
+        --se-text-light: #FFFFFF;
+        --se-accent: #F2F7FB;
+        --se-radius: 8px;
+        --se-transition: 0.4s;
+    }
+
+    /* Ensure typography matches global site */
+    .se-container,
+    .se-hero,
+    .se-desc,
+    .se-services,
+    .se-cta,
+    .se-card,
+    .se-card__text {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .se-container {
+        width: 100%;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 1.25rem;
+        box-sizing: border-box;
+    }
+
+    .se-hero {
+        position: relative;
+        min-height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--se-text-light);
+        text-align: center;
+        /* Use per-page CSS variable --se-hero-image to set the hero background image.
+           Example on a page: <section class="se-hero" style="--se-hero-image: url(assets/imgs/servicios/hero-obras-civiles.jpg)"> */
+        background-image: linear-gradient(180deg, rgba(58, 74, 92, 0.35), rgba(58, 74, 92, 0.35)), var(--se-hero-image, none);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 3.5rem 0;
+    }
+
+    .se-hero__overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(10, 12, 16, 0.35);
+        mix-blend-mode: multiply;
+    }
+
+    .se-hero__content {
+        position: relative;
+        z-index: 2;
+        padding: 0 1rem;
+    }
+
+    .se-hero__title {
+        font-size: 2rem;
+        letter-spacing: -0.02em;
+        margin: 0 0 0.4rem;
+        font-weight: 700;
+    }
+
+    .se-hero__subtitle {
+        margin: 0;
+        font-size: 1.05rem;
+        opacity: 0.95;
+    }
+
+    .se-desc {
+        background: #fff;
+        color: var(--se-text-dark);
+        padding: 2rem 0;
+    }
+
+    .se-desc__left {
+        margin-bottom: 1.25rem;
+    }
+
+    .se-desc__left h2 {
+        margin-top: 0;
+        color: var(--se-head-dark);
+        font-size: 1.25rem;
+    }
+
+    .se-desc__right {
+        background: linear-gradient(180deg, #ffffff, #fbfdff);
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(44, 95, 141, 0.06);
+    }
+
+    .se-benefits__title {
+        margin: 0 0 0.75rem 0;
+        font-size: 1rem;
+        color: var(--se-head-dark);
+    }
+
+    .se-benefits__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .se-benefit-item {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        padding: 0.6rem 0;
+        font-size: 0.98rem;
+        color: var(--se-text-dark);
+    }
+
+    .se-icon {
+        color: var(--se-azul-principal);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .se-services {
+        padding: 2.25rem 0;
+        background: white !important;
+    }
+
+    .se-services__heading {
+        text-align: center;
+        color: var(--se-head-dark);
+        margin: 0 0 1.25rem 0;
+        font-size: 1.35rem;
+    }
+
+    .se-services__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .se-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: var(--se-radius);
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(25, 40, 60, 0.06);
+        cursor: pointer;
+        min-height: 400px !important;
+        display: flex;
+    }
+
+    .se-card__media {
+        margin: 0;
+        flex: 1 1 auto;
+        display: block;
+        overflow: hidden;
+    }
+
+    .se-card__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform var(--se-transition) ease;
+    }
+
+    .se-card__overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        background: rgba(3, 155, 229, 0.9);
+        color: var(--se-text-light);
+        padding: 1.5rem;
+        transition: transform var(--se-transition) ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .se-card__text h3 {
+        margin: 0 0 0.35rem 0;
+        font-size: 1.05rem;
+    }
+
+    .se-card__text {
+        text-align: center;
+        max-width: 92%;
+    }
+
+    .se-card__text p {
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.25;
+        opacity: 0.98;
+    }
+
+    .se-card:hover .se-card__overlay,
+    .se-card.se-overlay-active .se-card__overlay {
+        transform: translateY(0);
+    }
+
+    .se-card:hover .se-card__media img,
+    .se-card.se-overlay-active .se-card__media img {
+        transform: scale(1.05);
+    }
+
+    .se-cta {
+        padding: 2rem 0;
+        background: white !important;
+    }
+
+    .se-cta__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .se-cta__title {
+        margin: 0;
+        color: var(--se-head-dark);
+        font-size: 1.25rem;
+    }
+
+    .se-cta__btn {
+        background: var(--se-azul-principal);
+        color: var(--se-text-light);
+        padding: 0.85rem 1.25rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 6px 18px rgba(44, 95, 141, 0.18);
+        transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .se-cta__btn:hover,
+    .se-cta__btn:focus {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px rgba(44, 95, 141, 0.22);
+        background: #039BE5;
+        color: var(--se-text-light)!important;
+    }
+
+    @media (min-width: 768px) {
+        .se-hero {
+            min-height: 480px;
+            padding: 4.5rem 0;
+        }
+
+        .se-hero__title {
+            font-size: 2.6rem;
+        }
+
+        .se-hero__subtitle {
+            font-size: 1.1rem;
+        }
+
+        .se-services__grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.25rem;
+        }
+
+        .se-container {
+            padding: 1.25rem 2rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .se-container {
+            padding: 1.25rem 2.5rem;
+        }
+
+        .se-desc {
+            padding: 3rem 0;
+        }
+
+        .se-desc .se-container {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 1.5rem;
+            align-items: start;
+        }
+
+        .se-services__grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .se-card {
+            min-height: 260px;
+        }
+    }
+
+    .se-animate {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .se-animate.is-visible {
+        opacity: 1;
+        transform: none;
+    }
+
+    /* ----------------------------- */
+    /* Carousel - prefijo: se-carousel- */
+    /* ----------------------------- */
+    .se-carousel {
+        padding: 2rem 0 3rem;
+    }
+
+    .se-carousel__container {
+        position: relative;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+
+    .se-carousel__heading {
+        text-align: center;
+        margin: 0 0 1rem 0;
+        color: var(--se-head-dark);
+        font-size: 1.25rem;
+    }
+
+    .se-carousel__track {
+        display: flex;
+        gap: 0.75rem;
+        transition: transform 0.5s cubic-bezier(.22, .9, .32, 1);
+        will-change: transform;
+        touch-action: pan-y;
+    }
+
+    .se-carousel__slide {
+        min-width: calc((100% / 1) - 0.75rem);
+        box-sizing: border-box;
+        border-radius: var(--se-radius);
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(25, 40, 60, 0.06);
+    }
+
+    .se-carousel__slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .se-carousel__nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        gap: 0.5rem;
+        z-index: 10;
+    }
+
+    .se-carousel__nav--left {
+        left: 0.5rem;
+    }
+
+    .se-carousel__nav--right {
+        right: 0.5rem;
+    }
+
+    .se-carousel__btn {
+        background: rgba(10, 12, 16, 0.6);
+        color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .se-carousel__dots {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 0.75rem;
+    }
+
+    .se-carousel__dot {
+        width: 10px;
+        height: 10px;
+        background: #d7e3ef;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .se-carousel__dot.is-active {
+        background: var(--se-azul-principal);
+    }
+
+    @media (min-width: 768px) {
+        .se-carousel__slide {
+            min-width: calc((100% / 2) - 0.75rem);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .se-carousel__slide {
+            min-width: calc((100% / 3) - 0.75rem);
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .se-carousel__slide {
+            min-width: calc((100% / 4) - 0.75rem);
+        }
+    }
+
+    /* Bootstrap modal is used now — remove legacy .se-modal styles. */
+    /* Ensure background cannot scroll while a Bootstrap modal is open */
+    body.modal-open, html.modal-open {
+        overflow: hidden !important;
+        height: 100% !important;
+    }
+
+    /* Make Bootstrap backdrop match previous overlay color */
+    .modal-backdrop {
+        background: rgba(10, 12, 16, 0.55) !important;
+    }
+
+    /* small helper to indicate clickable cards */
+    .se-card[data-servicio] {
+        cursor: pointer;
+    }
+
+    .se-card .se-card__more {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 6px 8px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+/* Prevent accidental horizontal scroll on mobile */
+html, body { overflow-x: hidden; }
+
+/* ----------------------------- */
+/* Bootstrap modal visual overrides for seModal */
+/* ----------------------------- */
+#seModal .modal-content {
+    border-radius: 12px;
+    box-shadow: 0 18px 60px rgba(10,20,40,0.4);
+    border: none;
+    overflow: hidden;
+}
+
+#seModal .modal-header {
+    border-bottom: none;
+    padding: 0.75rem 1rem;
+    background: transparent;
+}
+
+#seModal .modal-title {
+    margin: 0;
+    color: var(--se-head-dark);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Replace Bootstrap svg close with a simple × to match previous look */
+#seModal .btn-close {
+    background-image: none !important;
+    border: none;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    opacity: 0.95;
+}
+#seModal .btn-close::after {
+    content: "×";
+    font-size: 22px;
+    color: var(--se-head-dark);
+    display: inline-block;
+    line-height: 1;
+}
+
+#seModal .modal-body { padding: 0; }
+
+#seModal .modal-body .col-md-6:first-child { overflow: hidden; }
+
+#seModal #se-modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #seModal .modal-body .col-md-6:first-child img {
+        border-radius: 12px 0 0 12px;
+        height: 100%;
+    }
+}
+
+#seModal .col-md-6.p-3 { padding: 1.25rem; }
+
+#seModal #se-modal-desc p { margin-bottom: 0.6rem; color: var(--se-text-dark); line-height: 1.45; }
+#seModal #se-modal-list { padding-left: 1.1rem; margin-top: 0.6rem; color: var(--se-text-dark); }
+
+#seModal .btn-primary {
+    background: var(--se-azul-principal);
+    border-color: transparent;
+    box-shadow: 0 6px 18px rgba(44,95,141,0.18);
+}
+#seModal .btn-primary:hover, #seModal .btn-primary:focus {
+    background: #254C74;
+    box-shadow: 0 12px 30px rgba(44,95,141,0.22);
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.modal-lg { max-width: 92%; margin: 0.5rem auto; }
+}

@@ -1,0 +1,446 @@
+/* contacto.css
+   Estilos prefijados para la página de contacto (mobile-first)
+   Prefijo de clases: contacto-
+   Variables de color y breakpoints
+*/
+:root {
+    --contacto-azul: #34556F;
+    --contacto-azul-oscuro: #3A4A5C;
+    --contacto-texto: #333333;
+    --contacto-blanco: #FFFFFF;
+    --contacto-fondo: #F5F5F5;
+    --contacto-whatsapp: #25d366;
+    --contacto-radius: 12px;
+    --contacto-transition: 0.3s ease;
+}
+
+/* Reset sencillo para la sección principal */
+.contacto-main {
+    background: var(--contacto-fondo);
+    color: var(--contacto-texto);
+    font-size: 16px;
+    line-height: 1.45;
+}
+
+.contacto-container {
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+/* HERO */
+.contacto-hero {
+    position: relative;
+    min-height: 50vh;
+    /* mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(52, 85, 111, 0.95), rgba(58, 74, 92, 0.85));
+    color: var(--contacto-blanco);
+    padding: 40px 0;
+}
+
+.contacto-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0.25), rgba(10, 10, 10, 0.35));
+    pointer-events: none;
+}
+
+.contacto-hero__content {
+    position: relative;
+    z-index: 2;
+    max-width: 960px;
+    padding: 10px 20px;
+}
+
+.contacto-hero__title {
+    font-size: 2rem;
+    margin: 0 0 12px;
+    font-weight: 700;
+    color: var(--contacto-blanco);
+}
+
+.contacto-hero__subtitle {
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0 0 20px;
+    font-size: 1rem;
+}
+
+.contacto-hero__cta {
+    display: inline-block;
+    background: var(--contacto-blanco);
+    color: var(--contacto-azul);
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform var(--contacto-transition), box-shadow var(--contacto-transition);
+}
+
+.contacto-hero__cta:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(20, 30, 40, 0.18);
+}
+
+/* GRID - Métodos de contacto */
+.contacto-grid--methods {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 28px 0 40px;
+}
+
+.contacto-card {
+    background: var(--contacto-blanco);
+    border: 0.3rem solid rgb(52, 85, 111);
+    border-radius: var(--contacto-radius);
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(50, 50, 60, 0.06);
+    transition: transform var(--contacto-transition), box-shadow var(--contacto-transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 19rem;
+}
+
+.contacto-card:hover {
+    box-shadow: 0 18px 40px rgba(20, 30, 40, 0.12);
+}
+
+.contacto-card__icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: var(--contacto-azul);
+    margin: 0 0 14px 0;
+}
+
+.contacto-card__title {
+    margin: 0 0 6px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--contacto-azul-oscuro);
+}
+
+.contacto-card__info {
+    margin: 0 0 12px;
+    color: var(--contacto-texto);
+}
+
+.contacto-card__info--hours {
+    white-space: pre-line;
+}
+
+.contacto-card__btn {
+    margin-top: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform var(--contacto-transition), box-shadow var(--contacto-transition), background-color var(--contacto-transition);
+}
+
+.contacto-card__btn--primary {
+    background: var(--contacto-azul);
+    color: var(--contacto-blanco);
+}
+
+.contacto-card__btn--primary:hover {
+    background: var(--contacto-azul-oscuro);
+    color: white !important;
+}
+
+.contacto-card__btn--whatsapp {
+    background: var(--contacto-azul-oscuro);
+    color: #fff;
+}
+
+.contacto-card__btn--whatsapp:hover {
+    box-shadow: 0 10px 30px rgba(37, 211, 102, 0.18);
+    transform: translateY(-3px);
+    color: white !important;
+}
+
+.contacto-card__badge {
+    margin-top: 10px;
+    background: rgba(52, 85, 111, 0.08);
+    color: var(--contacto-azul-oscuro);
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+/* MAP */
+.contacto-location__inner {
+    text-align: center;
+    padding: 28px 0 24px;
+}
+
+.contacto-section__title {
+    font-size: 1.25rem;
+    margin: 6px 0 6px;
+    color: var(--contacto-azul);
+}
+
+.contacto-section__subtitle {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 12px;
+}
+
+.contacto-location__address {
+    color: var(--contacto-texto);
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.contacto-map__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-map__iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(20, 30, 40, 0.08);
+}
+
+.contacto-map__actions {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.contacto-map__btn {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    background: var(--contacto-azul);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.contacto-map__btn:hover {
+    box-shadow: 0 10px 24px rgba(20, 30, 40, 0.1);
+    color: white !important;
+}
+
+/* WHY CARDS */
+.contacto-grid--why {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 28px 0 48px;
+}
+
+.contacto-why__card {
+    background: linear-gradient(180deg, rgba(52, 85, 111, 0.98), rgba(58, 74, 92, 0.95));
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform var(--contacto-transition), box-shadow var(--contacto-transition);
+}
+
+.contacto-why__card:hover {
+    transform: scale(1.05);
+}
+
+.contacto-why__icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 0 auto 12px auto;
+    font-size: 32px;
+    color: #fff;
+}
+
+.contacto-why__title {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.contacto-why__desc {
+    margin: 0;
+    opacity: 0.95;
+}
+
+/* CTA FINAL */
+.contacto-cta {
+    position: relative;
+    background: var(--contacto-azul);
+    color: #fff;
+    padding: 48px 0;
+    overflow: hidden;
+}
+
+.contacto-cta__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0.12), rgba(10, 10, 10, 0.18));
+}
+
+.contacto-cta__inner {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contacto-cta__title {
+    color: #fff;
+    margin: 0 0 12px;
+    font-size: 1.4rem;
+}
+
+.contacto-cta__subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 18px;
+}
+
+.contacto-cta__actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacto-cta__btn {
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform var(--contacto-transition), box-shadow var(--contacto-transition);
+}
+
+.contacto-cta__btn--solid {
+    background: #fff;
+    color: var(--contacto-azul);
+}
+
+.contacto-cta__btn--outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.contacto-cta__btn:hover {
+    box-shadow: 0 14px 36px rgba(10, 20, 30, 0.18);
+    color: white !important;
+}
+
+/* ANIMACIONES - reveal */
+.contacto-reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity var(--contacto-transition), transform var(--contacto-transition);
+}
+
+.contacto-in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pressed / active states: cuando se oprimen, la letra queda blanca */
+.contacto-card:active .contacto-card__title,
+.contacto-card:active .contacto-card__info,
+.contacto-card__btn:active,
+.contacto-map__btn:active,
+.contacto-cta__btn:active {
+    color: #fff !important;
+}
+
+.contacto-card__btn:active {
+    transform: translateY(-2px) !important;
+}
+
+.contacto-card__btn:focus-visible,
+.contacto-cta__btn:focus-visible,
+.contacto-map__btn:focus-visible {
+    outline: 3px solid rgba(52, 85, 111, 0.12);
+    outline-offset: 3px;
+}
+
+/* Responsive breakpoints */
+@media(min-width: 768px) {
+    .contacto-hero {
+        min-height: 50vh;
+    }
+
+    .contacto-grid--methods {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contacto-grid--why {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contacto-map__iframe {
+        height: 300px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .contacto-hero {
+        min-height: 47vh;
+    }
+
+    .contacto-hero__title {
+        font-size: 2.6rem;
+    }
+
+    .contacto-hero__subtitle {
+        font-size: 1.05rem;
+    }
+
+    .contacto-grid--methods {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    /* 2x2 on desktop for methods (keeps 2 columns but layout looks balanced inside container) */
+    .contacto-grid--why {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contacto-map__iframe {
+        height: 400px;
+    }
+
+    .contacto-container {
+        padding: 48px 0;
+    }
+
+    .contacto-cta {
+        padding: 80px 0;
+    }
+
+    .contacto-cta__actions {
+        gap: 20px;
+    }
+}
+
+/* Small utility */
+.contacto-section__title--center {
+    text-align: center;
+}
