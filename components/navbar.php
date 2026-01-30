@@ -464,8 +464,7 @@
                         <span><a class="pg" href="nosotros.php">Nosotros</a></span>
                     </div>
                     <div class="col-md-3">
-                        <a href="https://api.whatsapp.com/send?phone=573108530777&text=Hola!%20me%20interesa%20uno%20de%20tus%20servicios/productos!"
-                            target="_blank">
+                        <a href="index.php">
                             <button class="btn pt-2 pb-2">Emergencias 24H</button>
                         </a>
 

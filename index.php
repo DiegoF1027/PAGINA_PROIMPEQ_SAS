@@ -10,7 +10,7 @@
                 <div class="carousel-item active" data-bs-interval="2000">
                     <img src="./assets/imgs/bombas.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h2><strong>Mantenimiento preventivo y correctivo del sistema hidraulico</strong></h2>
+                        <h2><strong>Soluciones hidraulicas</strong></h2>
                         <p class="mt-2">Venta de tuberia, mantenimientos preventivos y correctivos de los equipos de presión, diseños, entre otros.</p>
                         <a href="./servicios.php#serviciosHidraulic"><button class="mt-3 verMas1">Ver más</button></a>
                     </div>

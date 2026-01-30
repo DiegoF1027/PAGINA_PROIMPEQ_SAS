@@ -22,6 +22,15 @@
     padding: 1rem!important;
 }
 
+.btn_servicios{
+    display: flex;
+    justify-content: center;
+    width: 200px!important;
+    margin-left: 51rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* Estilos de la primera sección de Inicio (Carrusel)*/
 
 .carrusel .carousel-item img{
@@ -275,7 +284,7 @@
 /* Estilos de la sección de servicios electricos */
 
 .serviciosElectricos{
-    height: 62rem;
+    height: 66rem;
 }
 
 .containerElec1 div{
@@ -311,7 +320,7 @@
 
 .serviciosHidraulic{
     background-image: url(../imgs/serviciosHidraulicos.jpg);
-    height: 86rem;
+    height: 90rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -334,7 +343,7 @@
 /* Estilos de la sección de  Lavado de Tanques */
 
 .serviciosLavados{
-    height: 63rem;
+    height: 67rem;
 }
 
 .serviciosLavados .p1{
@@ -368,7 +377,7 @@
 
 .serviciosObras{
     background-image: url(https://tornimec.com/wp-content/uploads/2021/06/obrasa-civiles.jpg);
-    height: 64rem;
+    height: 67rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -436,6 +445,9 @@
 
 @media only screen and (max-width: 480px) {
     /* Estilos del cuerpo */
+    .btn_servicios{
+        margin-left: 5rem;
+    }
 
     /* Estilos responsivos del navbar */
 
@@ -580,11 +592,11 @@
     }
 
     .serviciosHidraulic {
-        height: 240rem;
+        height: 244rem;
     }
 
     .serviciosLavados {
-        height: 137rem;
+        height: 141rem;
         text-align: center!important;
     }
 
@@ -602,6 +614,6 @@
     }
 
     .serviciosObras {
-        height: 165rem;
+        height: 169rem;
     }
 }

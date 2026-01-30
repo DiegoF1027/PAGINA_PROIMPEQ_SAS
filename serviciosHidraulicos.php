@@ -5,7 +5,7 @@
 <main class="se-main" >
     <!-- Hero -->
     <section class="se-hero" role="region" aria-label="Hero Servicios Hidráulicos"
-        style="--se-hero-image: url('assets/imgs/servicios/hero-electrician.jpg')">
+        style="--se-hero-image: url('/PAGINA_PROIMPEQ_SAS/assets/imgs/servicios/hero-hydraulics.jpg')">
         <div class="se-hero__overlay"></div>
         <div class="se-hero__content">
             <h1 class="se-hero__title">Servicios Hidraulicos</h1>

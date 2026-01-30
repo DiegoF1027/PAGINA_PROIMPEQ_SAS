@@ -1,6 +1,6 @@
     /* Variables y base */
     :root {
-        --se-azul-principal: #039BE5;
+        --se-azul-principal: #34556F;
         --se-head-dark: #3A4A5C;
         --se-text-dark: #333333;
         --se-text-light: #FFFFFF;
@@ -173,7 +173,7 @@
         right: 0;
         bottom: 0;
         transform: translateY(100%);
-        background: rgba(3, 155, 229, 0.9);
+        background: #34556fd8;
         color: var(--se-text-light);
         padding: 1.5rem;
         transition: transform var(--se-transition) ease;
@@ -245,7 +245,7 @@
     .se-cta__btn:focus {
         transform: translateY(-3px);
         box-shadow: 0 12px 30px rgba(44, 95, 141, 0.22);
-        background: #039BE5;
+        background: #34556F;
         color: var(--se-text-light)!important;
     }
 

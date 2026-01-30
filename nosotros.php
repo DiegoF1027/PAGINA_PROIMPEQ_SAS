@@ -80,8 +80,11 @@
                 <div>
                     <span class="nosotros-badge">Visión</span>
                     <h3>Hacia Dónde Vamos</h3>
-                    <p>Ser referentes en soluciones hidráulicas y eléctricas sostenibles, transformando la gestión del
-                        agua con tecnología innovadora y prácticas responsables.</p>
+                    <p>
+                        Consolidarnos como referentes en soluciones hidráulicas y eléctricas sostenibles. Aspiramos a
+                        liderar la innovación del sector, implementando tecnologías avanzadas y prácticas responsables
+                        que impulsen el desarrollo eficiente de infraestructuras y protejan el medio ambiente.
+                    </p>
                 </div>
             </div>
         </div>
@@ -91,15 +94,19 @@
     <section class="nosotros-section nosotros-mision nosotros-reveal">
         <div class="nosotros-container">
             <div class="nosotros-grid nosotros-grid--2 nosotros-grid--reverse">
-                <div>
-                    <span class="nosotros-badge">Misión</span>
-                    <h3>Nuestro Compromiso</h3>
-                    <p>Entregar servicios de máxima calidad en instalación, mantenimiento y optimización de redes
-                        hidráulicas y eléctricas, con asesoría personalizada y soluciones confiables.</p>
-                </div>
                 <figure class="nosotros-art-image">
                     <img src="./assets/imgs/img2.png" alt="Técnico trabajando" loading="lazy">
                 </figure>
+                <div>
+                    <span class="nosotros-badge">Misión</span>
+                    <h3>Nuestro Compromiso</h3>
+                    <p>
+                        Proporcionar servicios de excelencia en instalación, mantenimiento y optimización de sistemas
+                        hidráulicos y eléctricos. Trabajamos en estrecha colaboración con nuestros clientes, ofreciendo
+                        soluciones personalizadas y eficientes que garantizan el funcionamiento óptimo de
+                        infraestructuras críticas y superan sus expectativas.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -133,7 +140,7 @@
     <section class="nosotros-section nosotros-why nosotros-reveal">
         <div class="nosotros-container">
             <h3 style="text-align:center;margin-bottom:18px;">¿Por Qué Elegirnos?</h3>
-            <div class="nosotros-grid" style="grid-template-columns:repeat(3,1fr);gap:18px;">
+            <div class="nosotros-grid nosotros-why__grid">
                 <div class="nosotros-why__item"><i class="bi bi-patch-check"></i>
                     <h4>Experiencia</h4>
                     <p>Trayectoria comprobada</p>

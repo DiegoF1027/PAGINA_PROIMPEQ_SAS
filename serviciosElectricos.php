@@ -2,10 +2,10 @@
 <?php require_once('./components/navbar.php') ?>
 <?php require_once('./components/btn_whatsapp.php') ?>
 
-<main class="se-main" >
+<main class="se-main">
     <!-- Hero -->
     <section class="se-hero" role="region" aria-label="Hero Servicios Eléctricos"
-        style="--se-hero-image: url('assets/imgs/servicios/hero-electrician.jpg')">
+        style="--se-hero-image: url('/PAGINA_PROIMPEQ_SAS/assets/imgs/servicios/hero-electrician.png')">
         <div class="se-hero__overlay"></div>
         <div class="se-hero__content">
             <h1 class="se-hero__title">Servicios Eléctricos</h1>
@@ -82,7 +82,7 @@
             <!-- Card 1 -->
             <article class="se-card" role="listitem" data-servicio="instalaciones">
                 <figure class="se-card__media">
-                    <img src="assets/imgs/servicios/instalaciones-panel.jpg"
+                    <img src="https://aprende.com/wp-content/uploads/2022/10/que-es-un-panel-electrico-y-para-que-sirve.jpg"
                         alt="Instalaciones eléctricas - panel organizado" loading="lazy">
                 </figure>
                 <div class="se-card__overlay" aria-hidden="true">
@@ -98,7 +98,7 @@
             <!-- Card 2 -->
             <article class="se-card" role="listitem" data-servicio="mantenimiento">
                 <figure class="se-card__media">
-                    <img src="assets/imgs/servicios/mantenimiento-multimetro.jpg"
+                    <img src="https://cesienergy.com/wp-content/uploads/2022/11/61SWE2LMYdL._SL1500_.jpg"
                         alt="Mantenimiento preventivo con multímetro" loading="lazy">
                 </figure>
                 <div class="se-card__overlay" aria-hidden="true">
@@ -114,7 +114,7 @@
             <!-- Card 3 -->
             <article class="se-card" role="listitem" data-servicio="reparaciones">
                 <figure class="se-card__media">
-                    <img src="assets/imgs/servicios/reparacion-diagnostico.jpg"
+                    <img src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                         alt="Reparaciones y diagnóstico de sistemas eléctricos" loading="lazy">
                 </figure>
                 <div class="se-card__overlay" aria-hidden="true">
@@ -141,25 +141,27 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
-                                    src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                                     alt="Proyecto 1"></div>
                             <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
-                                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                                     alt="Proyecto 2"></div>
                             <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
-                                    src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                                     alt="Proyecto 3"></div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
-                                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                                     alt="Proyecto 4"></div>
                             <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
-                                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                                     alt="Proyecto 5"></div>
-                            <div class="col-12 col-md-4"><!-- empty placeholder to keep layout --></div>
+                            <div class="col-12 col-md-4"><img class="d-block w-100 carousel-thumb"
+                                    src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
+                                    alt="Proyecto 5"></div>
                         </div>
                     </div>
                 </div>
@@ -181,17 +183,17 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100 carousel-thumb"
-                            src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop"
+                            src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                             alt="Proyecto 1">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100 carousel-thumb"
-                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop"
+                            src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                             alt="Proyecto 2">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100 carousel-thumb"
-                            src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop"
+                            src="https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414"
                             alt="Proyecto 3">
                     </div>
                 </div>
@@ -213,7 +215,7 @@
     <section class="se-cta" aria-label="Llamado a la acción">
         <div class="se-container se-cta__inner">
             <h2 class="se-cta__title">¿Necesitas un servicio eléctrico de calidad?</h2>
-            <a class="se-cta__btn" href="contacto.html">Contáctanos</a>
+            <a class="se-cta__btn" href="contacto.php">Contáctanos</a>
         </div>
     </section>
 </main>
@@ -225,7 +227,7 @@
         window.se_serviciosData = {
             instalaciones: {
                 titulo: 'Instalaciones Eléctricas',
-                imagen: 'https://images.unsplash.com/photo-1581091012184-7b6a7f7a3f0b?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=1b2b8d6c1c9b0d6d6f8b7f8c9d0a2e7f',
+                imagen: 'https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414',
                 descripcion: `Realizamos diseños y ejecuciones completas de instalaciones eléctricas en proyectos
                 residenciales, comerciales e industriales. Aplicamos normativas técnicas, selección de
                 protecciones, canalizaciones y tableros, priorizando seguridad, eficiencia energética
@@ -238,7 +240,7 @@
             },
             mantenimiento: {
                 titulo: 'Mantenimiento Preventivo',
-                imagen: 'https://images.unsplash.com/photo-1581091012184-7b6a7f7a3f0b?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=2a3d4c5b6e7f8a9b0c1d2e3f4a5b6c7d',
+                imagen: 'https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414',
                 descripcion: `Programas de mantenimiento preventivo que reducen fallas y maximizan la vida útil
                 de tus equipos. Incluye inspección periódica, termografía, limpieza de contactos,
                 verificación de protecciones y pruebas funcionales según frecuencia acordada.`,
@@ -250,7 +252,7 @@
             },
             reparaciones: {
                 titulo: 'Reparaciones y Diagnóstico',
-                imagen: 'https://images.unsplash.com/photo-1581092333676-2a4f8f9b6c7d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f',
+                imagen: 'https://www.sevieste.com/s/cc_images/teaserbox_2491998251.jpg?t=1610472414',
                 descripcion: `Servicio de diagnóstico y reparación con equipos de ensayo profesional. Realizamos
                 análisis de falla, reemplazo o reparación de componentes y pruebas de verificación antes
                 de entregar, con recomendaciones para evitar recurrencias.`,
